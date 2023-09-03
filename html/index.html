@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML Crash Course</title>
+   <meta name="author" content="sahil"/>
+   <meta name="description" content="This web page aims to provide beginners information about HTML."/>
   </head>
   <body>
     <h1>Heading 1</h1>
@@ -75,6 +77,96 @@
     </dl>
 <hr>
 <h3>Image tag <code>img</code></h3>
-<img src="./webdev.jpg" alt="web dev">
+<img src="./webdev.jpg" alt="web dev pic" width="500" height="400">
+<hr>
+<h3>Link tag <code>a</code></h3>
+<a href="http://google.com" target="_blank" rel="noopener noreferrer">Google</a>
+<br>
+<a href="contact.html">Go to contact page</a>
+<hr>
+<h3>Tables</h3>
+<table>
+    <thead>
+        <tr>
+            <th>Heading 1</th>
+            <th>Heading 2</th>
+            <th>Heading 3</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>data 1</td>
+            <td>data 1</td>
+            <td>data 1</td>
+        </tr>
+        <tr>
+            <td>data 4</td>
+            <td>data 5</td>
+            <td>data 6</td>
+        </tr>
+        <tr>
+            <td>data 7</td>
+            <td>data 8</td>
+            <td>data 9</td>
+        </tr>
+    </tbody>
+</table>
+<hr>
+<h3>Forms</h3>
+<form>
+    <label for="username">Username</label> <br><br>
+    <input type="text" id="username" placeholder="username">
+    <br>
+    <label for="password">Password</label><br><br>
+    <input type="password" name="" id="password" placeholder="password">
+    <br>
+    <br>
+    <label for="about">About</label><br>
+    <textarea name="" id="about" cols="30" rows="10" placeholder="About"></textarea>
+    <br>
+    <br>
+    <label for="country">Country</label>
+    <select name="" id="country">
+        <option value="india">India</option>
+        <option value="America">America</option>
+        <option value="Russia">Russia</option>
+    </select>
+<br>
+<br>
+    <label for="jobType">Job Type</label><br>
+    <input type="radio" name="jobtype" id="parttime" value="parttime">
+    <label for="parttime">Part Time</label>
+    <br>
+    <input type="radio" name="jobtype" id="fulltime" value="fulltime">
+    <label for="fulltime">Full Time</label>
+
+    <br>
+    <br>
+    <label for="skills">Skills</label><br>
+    <input type="checkbox" name="html" id="html">
+    <label for="html">HTML</label>
+    <br>
+    <input type="checkbox" name="css" id="css">
+    <label for="css">CSS</label>
+    <br>
+    <input type="checkbox" name="javascript" id="javascript">
+    <label for="javascript">JavaScript</label>
+    <br>
+    <button type="submit">Submit</button>
+
+</form>
+
+<hr>
+<h3>Semantic HTML</h3>
+<ul>
+    <li>header</li>
+    <li>nav</li>
+    <li>section</li>
+    <li>article</li>
+    <li>aside</li>
+    <li>footer</li>
+</ul>
+<p>suggests the developer the type of data that will be populated</p>
+<p>helps in SEO</p>
   </body>
 </html>
