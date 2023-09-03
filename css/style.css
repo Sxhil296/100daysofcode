@@ -1,3 +1,101 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
 h1{
     color: blue;
+}
+.red{
+    color: red;
+}
+.green{
+    color: green;
+}
+
+#test{
+    color: blueviolet;
+}
+.orange{
+    background-color: orange;
+    font-color: white;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: center;
+    line-height: 2;
+    letter-spacing: 4px;
+    word-spacing: 6px;
+}
+.yellow{
+    background-color: yellow;
+}
+
+ul {
+    list-style-type: square;
+    margin: 0;
+    padding: 0;
+}
+.box-model{
+    border: 1px solid red;
+    height: 50px;
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.inheritance{
+    color: orange;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+th, td{
+    border-bottom: 1px solid gray;
+    /* border-right: 1px solid gray; */
+    padding: 40px;
+}
+table{
+    border-collapse: collapse;
+    width: 60%;
+}
+td{
+    text-align: center;
+    /* height: 50px;
+    vertical-align: bottom; */
+}
+
+
+.content-1{
+    border: 2px solid red;
+    display: inline;
+}
+.content-2{
+    border: 2px solid green;
+    display: none;
+}
+
+.position1{
+    border: 1px solid red;
+    position: sticky;
+    top: 50px;
+    left: 50px;
+}
+.position2{
+    border: 1px solid blue;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.container{
+    position: relative;
+    width: 200px;
+    height: 2000px;
+    border: 1px solid gray;
 }
