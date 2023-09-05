@@ -32,11 +32,9 @@
 // console.log(person);
 // console.log(person.firstName)
 
-
 //array
 // const oddNumbers = [1, 3, 5, 7, 9]
 // console.log(oddNumbers[0])
-
 
 //operators
 
@@ -49,7 +47,6 @@
 // console.log(--y)
 // console.log(x*y)
 // console.log(x / y)
-
 
 // console.log(x == y)
 // console.log(x > y)
@@ -76,6 +73,72 @@
 // console.log(5 - null)
 // console.log('Emir' - 'Levi')
 
-
 // console.log(Number('6'))
+
+// const num = 0
+// if(num>0){
+//     console.log("positive")
+// } else if (num == 0) {
+//     console.log("zero")
+// }else {
+//     console.log("negative")
+// }
+
+// const color = "red";
+// switch (color) {
+//   case "red":
+//     console.log("color is red");
+//     break;
+//   case "blue":
+//     console.log("color is blue");
+//     break;
+//   case "green":
+//     console.log("color is green");
+//     break;
+//   default:
+//     console.log("not a color");
+// }
+
+// for(let i = 1; i <=5; i++){
+//     console.log('Iteration ' + i)
+// }
+
+// let i = 1
+// while(i <= 5){
+//     console.log('Iteration ' + i)
+//     i++
+// }
+
+// let i = 1
+// do{
+//     console.log('Iteration ' + i)
+//     i++
+// } while(i <= 5)
+
+// const num = [1,2,3,4,5]
+// for (const n of num ){
+//     console.log('Iteration ' + n)
+// }
+
+// function greet(username){
+//     console.log('Hello ' + username)
+// }
+// greet('Bruce')
+// greet('Paterick')
+
+
+
+
+// function add(a, b) {
+//   return a + b;
+// }
+
+// const arrowSum = (a, b) => {
+//   return a + b;
+// };
+
+// const sum = arrowSum(5, 7);
+// console.log(sum);
+
+
 
