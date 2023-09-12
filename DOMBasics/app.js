@@ -34,3 +34,51 @@
 
 // let dataEl = [].map.call(itemsEl, item => item.textContent)
 // console.log(dataEl);
+
+
+ //universal selector
+// let element = document.querySelector('*')
+// console.log(element)
+
+// let elements = document.querySelectorAll('*')
+// console.log(elements)
+
+ //type selector
+// let heading1 = document.querySelector('h1')
+// console.log(heading1)
+// let heading2 = document.querySelectorAll('h2')
+// console.log(heading2)
+
+ //class selector
+// let note = document.querySelector('.menu-item')
+// console.log(note)
+// let notes = document.querySelectorAll('.menu-item')
+// console.log(notes)
+
+ //id selector
+// let logo = document.querySelector('#logo')
+// console.log(logo)
+
+ //pseudo classes
+// let listItem = document.querySelectorAll('li:nth-child(2)')
+// console.log(listItem)
+
+
+// let imgEl = document.querySelector('img')
+// console.log(imgEl.parentNode)
+
+
+//similarly nextElementSibling and previousElementSibling and children
+
+
+
+//create element
+let div = document.createElement('div')
+div.id = 'content'
+div.innerHTML = '<p>CreateElement example</p>';
+document.body.appendChild(div)
+
+let h2 = document.createElement('h2')
+h2.id = 'heading2'
+h2.textContent = 'Add h2 element to the page'
+div.appendChild(h2)
